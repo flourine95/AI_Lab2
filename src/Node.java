@@ -1,4 +1,3 @@
-package k21;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,7 +42,7 @@ public class Node implements Comparable<Node> {
 	}
 
 	public List<Node> getChildrenNodes() {
-		List<Node> result = new ArrayList<Node>();
+		List<Node> result = new ArrayList<>();
 		for (Edge edge : this.children) {
 			result.add(edge.getEnd());
 		}

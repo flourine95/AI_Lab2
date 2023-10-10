@@ -1,4 +1,3 @@
-package k21;
 
 public class Edge implements Comparable<Edge>{
 	private Node begin;

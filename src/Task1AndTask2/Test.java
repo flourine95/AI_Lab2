@@ -1,3 +1,5 @@
+package Task1AndTask2;
+
 public class Test {
     public static void main(String[] args) {
         Node nodeS = new Node("S");
@@ -21,5 +23,7 @@ public class Test {
         nodeF.addEdge(nodeG, 1);
         System.out.println(NodeUtils.printPath(new BreadthFirstSearchAlgo().execute(nodeS, "G")));
         System.out.println(NodeUtils.printPath(new DepthFirstSearchAlgo().execute(nodeS, "G")));
+        System.out.println(NodeUtils.printPath(new BreadthFirstSearchAlgo().execute(nodeS, "B","G")));
+        System.out.println(NodeUtils.printPath(new DepthFirstSearchAlgo().execute(nodeS, "C","G")));
     }
 }

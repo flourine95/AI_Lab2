@@ -1,3 +1,4 @@
+package Task1AndTask2;
 
 public class Edge implements Comparable<Edge>{
 	private Node begin;

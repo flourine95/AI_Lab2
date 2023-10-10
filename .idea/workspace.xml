@@ -4,13 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de831a21-c0f5-4586-a634-7a05969ee132" name="Changes" comment="update BFS">
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+    <list default="true" id="de831a21-c0f5-4586-a634-7a05969ee132" name="Changes" comment="- done task 1 (BFS Graph + DFS Graph)">
+      <change afterPath="$PROJECT_DIR$/Task1_Task2/Task1_Task2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task1_Task2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task1AndTask2/BreadthFirstSearchAlgo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task1AndTask2/DepthFirstSearchAlgo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task1AndTask2/NodeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task3/BreadthFirstSearchAlgo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task3/DepthFirstSearchAlgo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task3/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task3/ISearchAlgo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task3/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task3/NodeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task3/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BreadthFirstSearchAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BreadthFirstSearchAlgo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DepthFirstSearchAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DepthFirstSearchAlgo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NodeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NodeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BreadthFirstSearchAlgo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DepthFirstSearchAlgo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1AndTask2/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ISearchAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1AndTask2/ISearchAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1AndTask2/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NodeUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1AndTask2/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,13 +41,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;flourine95&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="beeccd5a-d016-4bda-a9cc-3d0cb6e9fbc7" />
+        <option name="url" value="https://github.com/flourine95/AI_Lab2.git" />
+      </UrlAndAccount>
+    </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2WN6mYsvQ543iPlkzVaCqkzcAUT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,8 +75,12 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "extract.method.default.visibility": "private",
     "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/CodeInLab/AI/AI_Lab2/src/Task3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,6 +88,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodeInLab\AI\AI_Lab2\src\Task3" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Task1AndTask2" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,7 +104,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696560851462</updated>
-      <workItem from="1696911685167" duration="3866000" />
+      <workItem from="1696911685167" duration="5288000" />
+      <workItem from="1696928056202" duration="6326000" />
     </task>
     <task id="LOCAL-00001" summary="update BFS">
       <option name="closed" value="true" />
@@ -74,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696911794070</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- done task 1 (BFS Graph + DFS Graph)">
+      <option name="closed" value="true" />
+      <created>1696916144244</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696916144244</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,21 +132,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update BFS" />
-    <option name="LAST_COMMIT_MESSAGE" value="update BFS" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/DepthFirstSearchAlgo.java</url>
-          <line>4</line>
-          <properties class="DepthFirstSearchAlgo" method="execute">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="- done task 1 (BFS Graph + DFS Graph)" />
+    <option name="LAST_COMMIT_MESSAGE" value="- done task 1 (BFS Graph + DFS Graph)" />
   </component>
 </project>

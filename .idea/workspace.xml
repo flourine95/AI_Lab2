@@ -4,27 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de831a21-c0f5-4586-a634-7a05969ee132" name="Changes" comment="- done task 1 (BFS Graph + DFS Graph)">
-      <change afterPath="$PROJECT_DIR$/Task1_Task2/Task1_Task2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task1_Task2/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task1AndTask2/BreadthFirstSearchAlgo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task1AndTask2/DepthFirstSearchAlgo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task1AndTask2/NodeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task3/BreadthFirstSearchAlgo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task3/DepthFirstSearchAlgo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task3/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task3/ISearchAlgo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task3/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task3/NodeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task3/Test.java" afterDir="false" />
+    <list default="true" id="de831a21-c0f5-4586-a634-7a05969ee132" name="Changes" comment="- update method execute(Node root, String goal) UCS Graph Search">
+      <change afterPath="$PROJECT_DIR$/src/Task3/DepthLimitedSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BreadthFirstSearchAlgo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DepthFirstSearchAlgo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1AndTask2/Edge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ISearchAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1AndTask2/ISearchAlgo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1AndTask2/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NodeUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1AndTask2/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +37,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -80,7 +65,7 @@
     "extract.method.default.visibility": "private",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/CodeInLab/AI/AI_Lab2/src/Task3",
+    "last_opened_file_path": "D:/My Documents/AI_Lab2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -95,6 +80,9 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Task1AndTask2" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Task3" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -106,6 +94,7 @@
       <updated>1696560851462</updated>
       <workItem from="1696911685167" duration="5288000" />
       <workItem from="1696928056202" duration="6326000" />
+      <workItem from="1697170007465" duration="890000" />
     </task>
     <task id="LOCAL-00001" summary="update BFS">
       <option name="closed" value="true" />
@@ -123,16 +112,35 @@
       <option name="project" value="LOCAL" />
       <updated>1696916144244</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="- update method execute(Node root, String goal) UCS Graph Search">
+      <created>1697170103850</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697170103850</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update BFS" />
     <MESSAGE value="- done task 1 (BFS Graph + DFS Graph)" />
-    <option name="LAST_COMMIT_MESSAGE" value="- done task 1 (BFS Graph + DFS Graph)" />
+    <MESSAGE value="- update method execute(Node root, String goal) UCS Graph Search" />
+    <option name="LAST_COMMIT_MESSAGE" value="- update method execute(Node root, String goal) UCS Graph Search" />
   </component>
 </project>
